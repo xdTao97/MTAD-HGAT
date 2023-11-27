@@ -2,7 +2,7 @@
 
 
 ## Datasets
-Dataset download address:
+Download the MSL/SMAP dataset address:
 ```
     wget https://s3-us-west-2.amazonaws.com/telemanom/data.zip && unzip data.zip && rm data.zip
 
