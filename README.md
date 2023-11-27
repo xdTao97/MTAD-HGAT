@@ -25,7 +25,7 @@ Download the MSL/SMAP dataset address:
 
 ## Notice
 We can set parameters such as data set, multi-head graph attention and sliding window through the configuration file args.py, and the final running results will be saved in the output folder.
-As shown below:
+As shown below:<br>
 ![result](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/output.png)
 
 ## Experiment
