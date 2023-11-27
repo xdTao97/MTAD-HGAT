@@ -1,0 +1,37 @@
+{
+  "epsilon_result": {
+    "f1": 0.9252321065039174,
+    "precision": 0.8866855513613249,
+    "recall": 0.9672933286540133,
+    "TP": 7512.0,
+    "TN": 64903.0,
+    "FP": 960.0,
+    "FN": 254.0,
+    "threshold": 0.5116181299090385,
+    "latency": 33.63626170829785,
+    "reg_level": 0.0
+  },
+  "pot_result": {
+    "f1": 0.667918132943794,
+    "precision": 0.9969325127890273,
+    "recall": 0.5021890284545596,
+    "TP": 3900.0,
+    "TN": 65851.0,
+    "FP": 12.0,
+    "FN": 3866.0,
+    "threshold": 0.995043210439821,
+    "latency": 93.29356886135965
+  },
+  "bf_result": {
+    "f1": 0.9609160095670625,
+    "precision": 0.9546320994349573,
+    "recall": 0.9672933286540133,
+    "TP": 7512.0,
+    "TN": 65506.0,
+    "FP": 357.0,
+    "FN": 254.0,
+    "AUC": 0.9809364938370166,
+    "threshold": 0.7463000000000007,
+    "latency": 44.72713719049336
+  }
+}{'dataset': 'MSL', 'lookback': 100, 'normalize': True, 'spec_res': False, 'conv_kernel_size': 5, 'use_gatv2': True, 'feat_gat_embed_dim': None, 'time_gat_embed_dim': None, 'alpha': 0.2, 'tcn_kernel_size': 3, 'tcn_levels': 3, 'tcn_nhid': 32, 'epochs': 5, 'val_split': 0.1, 'bs': 256, 'init_lr': 0.001, 'shuffle_dataset': True, 'dropout': 0, 'use_cuda': True, 'print_every': 1, 'log_tensorboard': True, 'scale_scores': False, 'use_mov_av': False, 'gamma': 1, 'level': None, 'q': None, 'dynamic_pot': False, 'comment': '', 'seed': 8888, 'num_heads': 2}
