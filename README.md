@@ -28,13 +28,13 @@ As shown below：
 
 ## Experiment
 The model has been determined, and all experiments can be performed by modifying the parameters in the configuration file args.py.
-* （1）Basic experimental results can be obtained by modifying args.dataset. The two sets of data sets were subjected to ten experiments respectively, and the average value was calculated to obtain the final result. Taking the SMAP data set as an example, the obtained results are shown in Figure ex_result：![ex_result](http://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/main/fig/ex_result.png)
+* （1）Basic experimental results can be obtained by modifying args.dataset. The two sets of data sets were subjected to ten experiments respectively, and the average value was calculated to obtain the final result. Taking the SMAP data set as an example, the obtained results are shown in Figure ex_result：![ex_result](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/ex_result.png)
 The bf_result in the figure is the final result we used. Statistics on f1, precision, and recall get the TABLE II experimental results. Statistics on the AUC indicator get the experimental results on AUC in Fig4 and Fig5.
 * （2）Statistics and calculation of epsilon_result and pot_result in summary.txt to obtain the experimental results of TABLE IV.
 * （3）Modify num_heads in the args.py file to 1,2,3,4 to get the experimental results of Fig6.
 * （4）Modify the lookback value in the args.py file and set it to 30, 60, 60, 110, 130 to get the experimental results of Fig7.
 * （5）In TABLE III, we conducted Ablation Study. By annotating the corresponding modules in the mtad_gat.py file, the final experimental results are obtained. For the annotation module, please refer to the image_annotation image below：
-![image_annotation](http://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/main/fig/mtad_gat.png)。
+![image_annotation](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/mtad_gat.png)。
 At the same time, modify the code in the aggregation class in modules.py to be as follows：
 ```
     '''
@@ -68,4 +68,4 @@ At the same time, modify the code in the aggregation class in modules.py to be a
         return x3_1
 ```
 ## Email
-如有问题，可通过邮箱联系。email：2929727057@qq.com      
+If you have any questions, you can contact us by email.Email：taoxiaodong163@163.com      
