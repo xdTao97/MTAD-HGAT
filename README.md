@@ -3,7 +3,9 @@
 
 ## Datasets
 Dataset download address:
-https://github.com/Lliang97/Spacecraft-Anonamly-Detection/tree/main/datasets/data
+    wget https://s3-us-west-2.amazonaws.com/telemanom/data.zip && unzip data.zip && rm data.zip
+
+    cd data && wget https://raw.githubusercontent.com/khundman/telemanom/master/labeled_anomalies.csv
 Download the data set and import it into the project. The effect is shown as follows:
 ![dataset](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/dataset.png)
 ## Installation
