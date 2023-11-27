@@ -8,8 +8,7 @@ Dataset download address:
 
     cd data && wget https://raw.githubusercontent.com/khundman/telemanom/master/labeled_anomalies.csv
 ```
-Download the data set and import it into the project. The effect is shown as follows:
-![dataset](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/dataset.png)
+
 ## Installation
 ```
 1. Install python.
