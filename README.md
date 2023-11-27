@@ -28,7 +28,6 @@ We can set parameters such as data set, multi-head graph attention and sliding w
 As shown below:
 ![result](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/output.png)
 
-
 ## Experiment
 The model has been determined, and all experiments can be performed by modifying the parameters in the configuration file args.py.
 * (1) Basic experimental results can be obtained by modifying args.dataset. The two sets of data sets were subjected to ten experiments respectively, and the average value was calculated to obtain the final result. Taking the SMAP data set as an example, the obtained results are shown in Figure ex_result：![ex_result](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/ex_result.png)
