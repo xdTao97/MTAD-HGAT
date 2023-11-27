@@ -30,7 +30,7 @@ As shown below:<br>
 
 ## Experiment
 The model has been determined, and all experiments can be performed by modifying the parameters in the configuration file args.py.
-* (1) Basic experimental results can be obtained by modifying args.dataset. The two sets of data sets were subjected to ten experiments respectively, and the average value was calculated to obtain the final result. Taking the MSL data set as an example, the results of one of our experiments are shown in File [output](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/output/summary.txt)
+* (1) Basic experimental results can be obtained by modifying args.dataset. The two sets of data sets were subjected to ten experiments respectively, and the average value was calculated to obtain the final result. Taking the MSL data set as an example, the results of one of our experiments are shown in File
 The bf_result in the figure is the final result we used. Statistics on f1, precision, and recall get the TABLE II experimental results. Statistics on the AUC indicator get the experimental results on AUC in Fig4 and Fig5.
 * (2) Statistics and calculation of epsilon_result and pot_result in summary.txt to obtain the experimental results of TABLE IV.
 * (3) Modify num_heads in the args.py file to 1,2,3,4 to get the experimental results of Fig6.
