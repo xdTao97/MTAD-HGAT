@@ -9,7 +9,7 @@ Download the data set and import it into the project. The effect is shown as fol
 ## Installation
 ```
 1. Install python.
-2. Use git command to download the project to local: http://10.12.52.24/taoxiaodong/timeseriesanomalydetect.git.
+2. Use git command to download the project to local.
 3. Install condconda.
 4. Install the corresponding operating environment according to environments.txt.
 ```
