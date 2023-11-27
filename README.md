@@ -18,8 +18,8 @@ Dataset download address:
 ```
 
 ## Running code
-(1) First run preprocess.py to process the data set. Taking the SMAP data set as an example, the running results are as follows: < br >
-![datasetProcess](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/datasetProcess.png)  < br >
+(1) First run preprocess.py to process the data set. Taking the SMAP data set as an example, the running results are as follows: <br>
+![datasetProcess](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/datasetProcess.png)  <br>
 (2) Run main.py again to get the model running results.
 ![output_example](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/output_example.png)
 
