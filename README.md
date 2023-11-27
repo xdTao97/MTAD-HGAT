@@ -15,9 +15,9 @@ Download the data set and import it into the project. The effect is shown as fol
 ```
 
 ## Running code
-* 1、First run preprocess.py to process the data set. Taking the SMAP data set as an example, the running results are as follows:
+* 1.First run preprocess.py to process the data set. Taking the SMAP data set as an example, the running results are as follows:
 ![datasetProcess](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/datasetProcess.png)
-* 2、Run main.py again to get the model running results.
+* 2.Run main.py again to get the model running results.
 ![output_example](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/output_example.png)
 
 ## Notice
@@ -34,7 +34,7 @@ The bf_result in the figure is the final result we used. Statistics on f1, preci
 * (3)Modify num_heads in the args.py file to 1,2,3,4 to get the experimental results of Fig6.
 * (4)Modify the lookback value in the args.py file and set it to 30, 60, 60, 110, 130 to get the experimental results of Fig7.
 * (5)In TABLE III, we conducted Ablation Study. By annotating the corresponding modules in the mtad_gat.py file, the final experimental results are obtained. For the annotation module, please refer to the image_annotation image below:
-![image_annotation](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/mtad_gat.png)。
+![image_annotation](https://github.com/xdTao97/timeSeriesAnomalyDetect--MTAD-HGAT/blob/master/fig/mtad_gat.png).
 At the same time, modify the code in the aggregation class in modules.py to be as follows:
 ```
     '''
